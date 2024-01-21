@@ -1,0 +1,15 @@
+[project]
+name = "this-utopia-does-not-exist"
+version = "0.1.0"
+description = "visualizing a better future one image at a time"
+authors = ["jvmncs <jvmncs@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+fastapi = ">=0.109.0,<0.110"
+ruff = ">=0.1.13,<0.2"
+isort = ">=5.13.2,<5.14"
